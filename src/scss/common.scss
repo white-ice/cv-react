@@ -1,0 +1,57 @@
+// Заголовки, общие БЄМ блоки и проче...
+a,
+a:visited,
+a:link {
+	text-decoration: underline #121726;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+p {
+	margin-bottom: rem(15);
+	line-height: 1.5;
+}
+
+.m {
+	&__t-1 {
+		margin-top: rem(10);
+	}
+
+	&__t-2 {
+		margin-top: rem(13);
+	}
+
+	&__t-3 {
+		margin-top: rem(16);
+	}
+
+	&__t-4 {
+		margin-top: rem(20);
+	}
+
+	&__t-5 {
+		margin-top: rem(25);
+	}
+
+	&__b-1 {
+		margin-bottom: rem(10);
+	}
+
+	&__b-2 {
+		margin-bottom: rem(13);
+	}
+
+	&__b-3 {
+		margin-bottom: rem(16);
+	}
+
+	&__b-4 {
+		margin-bottom: rem(20);
+	}
+
+	&__b-5 {
+		margin-bottom: rem(25);
+	}
+}
